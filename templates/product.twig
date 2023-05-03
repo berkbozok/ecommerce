@@ -83,8 +83,6 @@
       </div>
     </div>
     <div class="right col col-lg-6 col-12 mobile-col">
-        {# <img class="previous" src="{{icons.arrowLeft.one.url()}}" alt="">
-        <img class="next" src="{{icons.arrowRight.one.url()}}" alt=""> #}
         <div class="mobile-slider-wrapper">
         {% for image in entry.productImages.all() %}
                 <img id="myBtn" class="main-img" src="{{image.url}}" alt="">
@@ -119,9 +117,6 @@
 <div id="myModal" class="modal">
   <div class="modal-content">
     <span class="close-button">&times;</span>
-    {# <img class="previouss"  src="{{ icons.arrowLeft.one.url() }}" alt="">
-    <img class="nextt" src="{{ icons.arrowRight.one.url() }}" alt="">
-    <img class="main-img" src="{{ entry.productImages.one.url() }}" alt=""> #}
     <div class="model-slider-wrapper">
         {% for image in entry.productImages.all() %}
             <div class="main-img-wrapper">

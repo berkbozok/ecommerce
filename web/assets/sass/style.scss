@@ -115,10 +115,8 @@
 }
 
 .minus {
-  /* display: inline-block; */
   float: left;
   margin-left: 0.625rem;
-  /* margin: 10px auto auto 10px; */
 }
 
 .minus:hover {
@@ -126,10 +124,8 @@
 }
 
 .plus {
-  /* display: inline-block; */
   float: right;
   margin-right: 0.625rem;
-  /* margin: 6px 10px auto auto; */
 }
 
 .plus:hover {
@@ -168,7 +164,6 @@
 }
 
 .thumb-div {
-  // background-color: white;
   border-radius: 0.9375rem;
   width: 6.25rem;
   border: 0.1875rem solid rgba(orange, 0);
@@ -374,7 +369,7 @@
     padding: 0.75rem 0.9375rem;
     background-color: white;
     border-radius: 50%;
-    // margin-top: 179px;
+
     display: block;
     position: absolute;
     float: left;
@@ -387,7 +382,6 @@
     padding: 0.75rem 0.9375rem;
     background-color: white;
     border-radius: 50%;
-    // margin-top: 179px;
     right: 0;
     display: block;
     position: absolute;
@@ -480,7 +474,6 @@
 }
 
 .modal-content .main-img {
-  // margin: 4.0625rem 1.3125rem 2rem auto;
   width: 100%;
   height: 100%;
 }
@@ -506,10 +499,6 @@
 .modal-content .thumb-div.slick-current {
   border: 5px solid red;
 }
-
-// .modal-content .selected-div {
-//   width: 5.9375rem;
-// }
 
 body {
   margin: 0 11%;
@@ -539,11 +528,9 @@ hr {
   margin-bottom: 0;
 }
 .previouss {
-  /* margin-left: 10px; */
   padding: 12px 15px;
   background-color: white;
   border-radius: 50%;
-  //   margin-top: 282.5px;
   position: absolute;
   float: left;
   top: 50%;
@@ -554,11 +541,9 @@ hr {
 }
 
 .nextt {
-  /* margin-right: 10px; */
   padding: 12px 15px;
   background-color: white;
   border-radius: 50%;
-  //   margin-top: 282.5px;
   right: -10px;
   position: absolute;
   float: right;
@@ -567,8 +552,3 @@ hr {
   transform: translateY(-50%);
   cursor: pointer;
 }
-
-// .nextt,
-// .previouss:hover {
-//   cursor: pointer;
-// }

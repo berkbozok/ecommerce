@@ -115,10 +115,8 @@
 }
 
 .minus {
-  /* display: inline-block; */
   float: left;
   margin-left: 0.625rem;
-  /* margin: 10px auto auto 10px; */
 }
 
 .minus:hover {
@@ -126,10 +124,8 @@
 }
 
 .plus {
-  /* display: inline-block; */
   float: right;
   margin-right: 0.625rem;
-  /* margin: 6px 10px auto auto; */
 }
 
 .plus:hover {
@@ -527,7 +523,6 @@ hr {
 }
 
 .previouss {
-  /* margin-left: 10px; */
   padding: 12px 15px;
   background-color: white;
   border-radius: 50%;
@@ -541,7 +536,6 @@ hr {
 }
 
 .nextt {
-  /* margin-right: 10px; */
   padding: 12px 15px;
   background-color: white;
   border-radius: 50%;
