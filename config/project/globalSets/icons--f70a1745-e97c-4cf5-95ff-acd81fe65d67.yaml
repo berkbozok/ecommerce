@@ -1,0 +1,108 @@
+fieldLayouts:
+  1f49e617-2b4b-4c21-a62b-01303039b78f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 1d7f58e5-54d5-4aa6-967a-3dfd63ca925a # Arrow left
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3e970d0d-427c-4bfb-98ff-e12281b354da
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e713e7b2-5884-4fad-bc4e-01590a029dda # Arrow right
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 37968fac-e452-406a-81dd-9c3fe74355d0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9cb01ad1-a8c0-4dcd-acaa-32209d678735 # Delete
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4734fd69-2a6a-4f88-80fc-89893d1bd28c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 553c2fb7-c6c3-4466-8c23-78667efb8a02 # Menu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c1252a6c-b932-49a0-bf32-d1b472827da2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1382385e-830e-49f2-a4cc-3f3f001b35b0 # Minus
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 989877cd-f17f-4ea9-b3e0-2ce4ad244ffd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b67386ab-fd2f-4b39-a1cd-b9d9fc2ac994 # Plus
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c3f58fb4-93ad-4b21-8338-f8684f20b03d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bdaa05b2-de70-4428-b7c2-a5260bcbe4ca # Product Thumb Nail
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 71b0acc2-f231-4338-95a4-31669ce9eafc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5e26ca9e-e35a-47a6-b155-40783811697e # White cart
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8eaa0347-b87d-4296-a253-c46c6b96189d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5ef82da4-8ef9-4d41-becc-ed3172b6c9be
+        userCondition: null
+handle: icons
+name: Icons
+sortOrder: 1

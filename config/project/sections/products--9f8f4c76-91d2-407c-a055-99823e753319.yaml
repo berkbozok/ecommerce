@@ -1,0 +1,15 @@
+defaultPlacement: beginning
+enableVersioning: true
+handle: products
+name: Products
+propagationMethod: all
+siteSettings:
+  195af2c1-29c1-445a-92cf-85c9d9d40003: # Ecommerce
+    enabledByDefault: true
+    hasUrls: true
+    template: product.twig
+    uriFormat: 'products/{slug}'
+structure:
+  maxLevels: 1
+  uid: 5be6401f-da0d-43f3-b792-4caa00609da7
+type: structure

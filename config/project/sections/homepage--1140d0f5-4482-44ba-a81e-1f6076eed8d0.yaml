@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: homepage
+name: Homepage
+propagationMethod: all
+siteSettings:
+  195af2c1-29c1-445a-92cf-85c9d9d40003: # Ecommerce
+    enabledByDefault: true
+    hasUrls: true
+    template: index.twig
+    uriFormat: __home__
+type: single

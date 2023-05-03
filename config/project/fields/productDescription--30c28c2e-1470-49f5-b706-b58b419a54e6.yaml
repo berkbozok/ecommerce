@@ -1,0 +1,19 @@
+columnSuffix: vqdvihfj
+contentColumnType: text
+fieldGroup: e7c76b8c-0680-425f-8eb9-db56956ed4a5 # Product
+handle: productDescription
+instructions: null
+name: 'Product description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

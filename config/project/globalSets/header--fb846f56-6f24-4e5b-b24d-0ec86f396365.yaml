@@ -1,0 +1,36 @@
+fieldLayouts:
+  3547eaa3-4492-4f65-b3ad-678bfecdc2d0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 98e40c01-feab-42be-b39e-7c47fdbc195d # Cart image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9eafa226-7049-4834-b0e5-4a338f9d411e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: eb8fb94e-2982-453f-9072-17588c12b586 # Profile image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f6550ec3-9fd0-4fc4-9173-dd4c40f9f35e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b5771228-8f89-468c-9a1f-e5589b8c705f
+        userCondition: null
+handle: header
+name: Header
+sortOrder: 2

@@ -1,0 +1,8 @@
+baseUrl: '@web/'
+handle: default
+hasUrls: true
+language: en-GB
+name: Ecommerce
+primary: true
+siteGroup: ade1f98c-05e2-4113-a4c7-c47d780aa8e0 # Ecommerce
+sortOrder: 1

@@ -1,0 +1,51 @@
+dateModified: 1682971855
+email:
+  fromEmail: berk_bozok@live.com
+  fromName: Ecommerce
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: $IMAGES_BASE_PATH
+    type: craft\fs\Local
+    url: $IMAGES_BASE_URL
+meta:
+  __names__:
+    1d7f58e5-54d5-4aa6-967a-3dfd63ca925a: 'Arrow left' # Arrow left
+    5e26ca9e-e35a-47a6-b155-40783811697e: 'White cart' # White cart
+    9cb01ad1-a8c0-4dcd-acaa-32209d678735: Delete # Delete
+    9f8f4c76-91d2-407c-a055-99823e753319: Products # Products
+    30c28c2e-1470-49f5-b706-b58b419a54e6: 'Product description' # Product description
+    53c2cac6-4022-4c80-955f-aef3f99d5778: Homepage # Homepage
+    98e40c01-feab-42be-b39e-7c47fdbc195d: 'Cart image' # Cart image
+    195af2c1-29c1-445a-92cf-85c9d9d40003: Ecommerce # Ecommerce
+    553c2fb7-c6c3-4466-8c23-78667efb8a02: Menu # Menu
+    1140d0f5-4482-44ba-a81e-1f6076eed8d0: Homepage # Homepage
+    5225e55c-2dfe-412f-bb89-9c7678c525ea: Images # Images
+    1382385e-830e-49f2-a4cc-3f3f001b35b0: Minus # Minus
+    a830dc15-0621-48c6-9ebf-9da4338a2edb: 'Product images' # Product images
+    ade1f98c-05e2-4113-a4c7-c47d780aa8e0: Ecommerce # Ecommerce
+    b67386ab-fd2f-4b39-a1cd-b9d9fc2ac994: Plus # Plus
+    bdaa05b2-de70-4428-b7c2-a5260bcbe4ca: 'Product Thumb Nail' # Product Thumb Nail
+    c11daede-73be-44f6-8abe-008cc7f7734d: Default # Default
+    e7c76b8c-0680-425f-8eb9-db56956ed4a5: Product # Product
+    e713e7b2-5884-4fad-bc4e-01590a029dda: 'Arrow right' # Arrow right
+    ea828d13-254f-4b0e-94a7-a506df8589ed: Globals # Globals
+    eb8fb94e-2982-453f-9072-17588c12b586: 'Profile image' # Profile image
+    f53dc786-7687-4afd-a997-e1cb66d92893: Common # Common
+    f70a1745-e97c-4cf5-95ff-acd81fe65d67: Icons # Icons
+    fb846f56-6f24-4e5b-b24d-0ec86f396365: Header # Header
+system:
+  edition: solo
+  live: true
+  name: Ecommerce
+  schemaVersion: 4.4.0.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
