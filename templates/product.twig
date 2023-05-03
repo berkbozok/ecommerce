@@ -75,8 +75,8 @@
       <div class="row thumbs">
         {% for image in entry.productImages.all() %}
         <div class="col col-3">
-          <div class="{% if loop.index == 1 %}selected-div{% else %}thumb-div{% endif %}">
-            <img class="{% if loop.index == 1 %}selected-img{% endif %} thumb" src="{{ image.url }}" alt="">
+          <div class="{% if loop.index == 1 %}selected-div{% else %}thumb-div{% endif %} main-thumb-div">
+            <img class="{% if loop.index == 1 %}selected-img{% endif %} thumb main-thumb" src="{{ image.url }}" alt="">
           </div>
         </div>
         {% endfor %}
@@ -124,16 +124,18 @@
     <img class="main-img" src="{{ entry.productImages.one.url() }}" alt=""> #}
     <div class="model-slider-wrapper">
         {% for image in entry.productImages.all() %}
-            <div class="maion-img-wrapper">
-              <div class="main-img "style="background-image:url({{image.url()}});"></div>
+            <div class="main-img-wrapper">
+              <img class="main-img" src="{{ image.url() }}" />
             </div>
         {% endfor %}
     </div>
-    <div class="row thumbs">
+    <div class="thumbs-slider-wrapper">
       {% for image in entry.productImages.all() %}
-      <div class="col col-3">
-        <div class="{% if loop.index == 1 %}selected-div{% else %}thumb-div{% endif %}">
-          <img id="first" class="{% if loop.index == 1 %}selected-img{% endif %} thumb" src="{{ image.url }}" alt="">
+      <div class="thumbs-slider-col">
+        <div class="thumbs-slider-inside-wrapper">
+          <div class="{% if loop.index == 1 %}selected-div{% else %}thumb-div{% endif %} thumb-div">
+            <img data-id="{{loop.index - 1}}" id="first" class="{% if loop.index == 1 %}selected-img{% endif %} thumb model-thumb" src="{{ image.url }}" alt="" />
+          </div>
         </div>
       </div>
       {% endfor %}
