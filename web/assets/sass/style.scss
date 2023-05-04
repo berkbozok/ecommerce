@@ -28,11 +28,10 @@
 
 .avatar {
   width: 2.5rem;
-}
-
-.avatar:hover {
-  border: 3px solid hsl(26, 100%, 55%);
-  border-radius: 50%;
+  &:hover {
+    border: 3px solid hsl(26, 100%, 55%);
+    border-radius: 50%;
+  }
 }
 
 .nav-btnn {
@@ -117,19 +116,19 @@
 .minus {
   float: left;
   margin-left: 0.625rem;
-}
 
-.minus:hover {
-  opacity: 0.5;
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 .plus {
   float: right;
   margin-right: 0.625rem;
-}
 
-.plus:hover {
-  opacity: 0.5;
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 .buy-btn {
@@ -141,10 +140,10 @@
   border-radius: 0.5rem;
   margin-left: 1rem;
   box-shadow: 0rem 0.9375rem 1.25rem rgba(255, 125, 26, 0.4);
-}
 
-.buy-btn:hover {
-  opacity: 0.5;
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 .btn-img {
@@ -238,9 +237,10 @@
   background-color: hsl(26, 100%, 55%);
   height: 3.125rem;
   margin-top: 0.625rem;
-}
-.cart-btnn:hover {
-  opacity: 0.5;
+
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 .cart-span {
@@ -250,23 +250,23 @@
   width: 3rem;
   height: 2.625rem;
   padding-top: 0.375rem;
-}
 
-.cart-span img {
-  padding-top: 0.625rem;
-}
+  img {
+    padding-top: 0.625rem;
+  }
 
-.cart-span span {
-  background-color: hsl(26, 100%, 55%);
-  color: white;
-  font-size: 0.75rem;
-  width: 1rem;
-  line-height: 1rem;
-  text-align: center;
-  z-index: 2;
-  position: absolute;
-  left: 1.75rem;
-  border-radius: 0.375rem;
+  span {
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    font-size: 0.75rem;
+    width: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    left: 1.75rem;
+    border-radius: 0.375rem;
+  }
 }
 
 .blackk {
@@ -368,7 +368,6 @@
     padding: 0.75rem 0.9375rem;
     background-color: white;
     border-radius: 50%;
-
     display: block;
     position: absolute;
     float: left;
