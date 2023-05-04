@@ -1,6 +1,10 @@
+$orange: hsl(26, 100%, 55%);
+$gray: hsl(220, 14%, 75%);
+$sans: "Kumbh Sans", sans-serif;
+
 .nav-padding {
   padding-bottom: 30px;
-  border-bottom: 1px solid hsl(220, 14%, 75%);
+  border-bottom: 1px solid $gray;
 }
 
 .navbar {
@@ -8,7 +12,7 @@
 }
 
 .navbar-brand {
-  font-family: "Kumbh Sans", sans-serif;
+  font-family: $sans;
   font-weight: 700;
   font-size: 2rem;
 }
@@ -29,7 +33,7 @@
 .avatar {
   width: 2.5rem;
   &:hover {
-    border: 3px solid hsl(26, 100%, 55%);
+    border: 3px solid $orange;
     border-radius: 50%;
   }
 }
@@ -134,7 +138,7 @@
 .buy-btn {
   height: 3.5rem;
   width: 15rem;
-  background-color: hsl(26, 100%, 55%);
+  background-color: $orange;
   border: 0;
   color: white;
   border-radius: 0.5rem;
@@ -157,7 +161,7 @@
 
 .selected-div {
   background-color: white;
-  border: 0.1875rem solid hsl(26, 100%, 55%);
+  border: 0.1875rem solid $orange;
   border-radius: 0.9375rem;
   width: 6.5319rem;
 }
@@ -168,7 +172,7 @@
   border: 0.1875rem solid rgba(orange, 0);
   transition: all 0.4s ease;
   &.selected-div {
-    border: 3px solid hsl(26, 100%, 55%);
+    border: 3px solid $orange;
   }
 }
 
@@ -234,7 +238,7 @@
   display: block;
   width: 100%;
   color: white;
-  background-color: hsl(26, 100%, 55%);
+  background-color: $orange;
   height: 3.125rem;
   margin-top: 0.625rem;
 
@@ -256,7 +260,7 @@
   }
 
   span {
-    background-color: hsl(26, 100%, 55%);
+    background-color: $orange;
     color: white;
     font-size: 0.75rem;
     width: 1rem;
@@ -445,13 +449,13 @@
   justify-content: center;
   transition: color 0.4s ease;
   &:hover {
-    color: hsl(26, 100%, 55%);
+    color: $orange;
   }
 }
 
 .close:hover,
 .close:focus {
-  color: hsl(26, 100%, 55%);
+  color: $orange;
   text-decoration: none;
   cursor: pointer;
 }
@@ -506,7 +510,7 @@ body {
 p {
   font-size: 1rem;
   line-height: 2;
-  color: hsl(220, 14%, 75%);
+  color: $gray;
 }
 
 h1 {
@@ -519,7 +523,7 @@ h3 {
 }
 
 h6 {
-  color: hsl(26, 100%, 55%);
+  color: $orange;
 }
 
 hr {
